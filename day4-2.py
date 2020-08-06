@@ -1,0 +1,6 @@
+file=open('shit3.jpg','rb')
+img=file.read()
+file.close()
+file=open('shit5.jpg','wb')
+file.write(img)
+file.close()
